@@ -1,0 +1,141 @@
+.subcribe{
+
+    background-color:rgb(201, 19, 19);
+    color:white;
+    border-radius: 2px;
+    border: none;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    margin-right:5px;
+    transition: opacity 0.15s;
+}
+.subcribe:hover{
+    opacity:0.2;
+}
+.subcribe:active{
+    opacity: 0.1;
+}
+.join{
+    background-color:white;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:rgb(41, 118, 211);
+    color:rgb(27, 110, 211);
+    height:30px;
+    width:60px;
+    padding:5px;
+    border-radius: 3px;
+    cursor:pointer;
+    margin-right:5px;
+    transition:background-color 1s;
+    transition: color 1s;
+}
+.join:hover{
+    background-color:rgb(27, 110, 211);
+    color:white;
+}
+.join:active{
+    opacity: 0.7;
+}
+.tweet{
+    background-color:rgb(18, 145, 249);
+    color:white;
+    height:30px;
+    width:70px;
+    border-radius:50px;
+    border-style:none;
+    cursor:pointer;
+    font-weight:bold;
+    transition:box-shadow 0.15s ;
+}
+.tweet:hover{
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+.request{
+    background-color: black;
+    color:white;
+    height: 35px;
+    width:110px;
+    border:none;
+    padding:auto;
+    font-size: small;
+    font-weight:50px;
+    cursor:pointer;
+    margin-left:5px;
+    transition: opacity 1s;
+}
+.request:hover{
+    opacity: 0.75;
+}
+.amazon{
+    background-color: rgb(255, 215, 37);
+    height:30px;
+    width:170px;
+    border:none;
+    border-radius:50px;
+    font-weight:bolder;
+    cursor:pointer;
+    margin-left:5px;
+    transition: background-color 0.5s;
+}
+.amazon:hover{
+    background-color: rgb(235, 216, 52);
+}
+.sign-up{
+    background-color: rgb(46, 164, 79);
+    color:white;
+    border:none;
+    height:35px;
+    width:100px;
+    font-weight:bolder;
+    padding:5px;
+    border-radius:5px;
+    cursor:pointer;
+    margin-left:5px;
+
+}
+.get-started{
+    background-color: rgb(121, 82, 179);
+    height:33px;
+    width:105px;
+    border:none;
+    border-radius: 3px;
+    color:white;
+    font-weight:bold;
+    font-size:smaller;
+    padding:auto;
+    margin-left:5px;
+    cursor:pointer;
+}
+.download{
+    height:33px;
+    width:110px;
+    background-color: rgba(108, 117, 125,);
+    border-style:solid;
+    border-width:1px;
+    border-radius:3px;
+    margin-left:5px;
+    cursor: pointer;
+}
+.apply{
+    background-color: rgb(20, 105, 202);
+    height:30px;
+    border-radius:50px;
+    width: 220px;
+    border-style: none;
+    color:white;
+    font-weight:bold;
+    font-size:small;
+}
+.save{
+    width:70px;
+    height:30px;
+    border-radius:20px;
+    border-style:solid;
+    border-width:1px;
+    border-color: rgb(20, 105, 202);
+    background-color:white;
+    color:rgb(4, 95, 200);
+    font-weight:bold;
+}
